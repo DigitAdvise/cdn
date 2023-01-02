@@ -108,5 +108,9 @@ text-align:center;
 
 @media only screen and (max-width: 660px){
   .digitable tr{
+    font-size: 14px;
+   
+    .digitable-td{
     font-size: 13px;
+     
   }
