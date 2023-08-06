@@ -1,37 +1,53 @@
 /* DA Post List Table CSS -> Start */
-.da-postable {
-  width: 100%;
-  table-layout: unset;
-  border-collapse: collapse;
-  color: #211c18;
-  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.1);
-  animation: float 5s infinite;
+
+.digit-brio {
+  width: auto;
+    border-collapse: collapse;
+    color: #211c18;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
-.da-postable th {
-  color: #FFFFFF;
-  width: 140px;
-  word-break: normal;
-  text-align: left;
-  vertical-align: middle;
-  padding: 16px;
-  line-height: normal;
-  background: #144b7f;
+.digit-brio th {
+    color: #FFFFFF;
+    width: 16.666667%;
+    word-break: normal;
+    text-align: left;
+    padding: 16px;
+    line-height: normal;
+    background: #144b7f;
 }
 
-.da-postable tr:nth-child(odd) th {
+.digit-brio tr:nth-child(odd) th {
   background: #103e69;
 }
 
-.da-postable td {
+.digit-brio td {
   word-break: normal;
-  text-align: left;
   padding: 18px 16px;
-  background-color: white;
 }
 
-.da-postable tr:nth-child(odd) td {
+.digit-brio tr:nth-child(odd) td {
   background: #EBEBEB;
+}
+
+
+    @media screen and (max-width: 600px) {
+
+.digit-brio th {
+   color: #FFFFFF;
+    word-break: normal;
+    text-align: left;
+    padding: 16px;
+    background: #144b7f;
+    font-size: 14px;
+}
+
+.digit-brio td {
+  word-break: normal;
+  padding: 18px 16px;
+  font-size: 15px;
+}
+        
 }
 
 /* DA Post List Table CSS -> End */
