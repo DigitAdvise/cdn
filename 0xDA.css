@@ -15,6 +15,7 @@
     padding: 16px;
     line-height: normal;
     background: #144b7f;
+    vertical-align: middle;
 }
 
 .digit-brio tr:nth-child(odd) th {
