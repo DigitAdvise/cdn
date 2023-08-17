@@ -101,8 +101,8 @@
 /* Change According to theme */
 
  .hosting-section {
-   margin-bottom: 28px;
-   padding-left: 35px;
+   margin-bottom: 0px;
+   padding-left: 0px;
  }
 
 @media only screen and (max-width: 660px){
