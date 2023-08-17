@@ -21,8 +21,6 @@
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     align-items: center;
     justify-content: space-around;
     font-weight: bold;
@@ -40,6 +38,19 @@
   .grab-deal a {
     font-size: 18px;
   }
+
+/* Change According to theme */
+
+ ul.hosting-info {
+   margin-bottom: 0px;
+   padding-left: 0px;
+ }
+ .hosting-section{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+/* End */
 
  @media (max-width: 550px) {
     .hosting-offer-container {
@@ -98,12 +109,7 @@
     right: 0;
   }
 
-/* Change According to theme */
 
- ul.hosting-info {
-   margin-bottom: 0px;
-   padding-left: 0px;
- }
 
 @media only screen and (max-width: 660px){
   .digitable tr{
