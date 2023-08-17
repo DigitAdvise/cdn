@@ -40,15 +40,19 @@
   }
 
 /* Change According to theme */
+.hosting-offer-container {
+  margin-bottom:28px;
+}
 
+.hosting-section{
+   margin-top: 10px;
+   margin-bottom: 10px;
+ }
  ul.hosting-info {
    margin-bottom: 0px;
    padding-left: 0px;
  }
- .hosting-section{
-   margin-top: 10px;
-   margin-bottom: 10px;
-}
+
 
 /* End */
 
