@@ -98,6 +98,12 @@
     right: 0;
   }
 
+/* Change According to theme */
+
+ .hosting-section {
+   margin-bottom: 28px;
+   padding-left: 35px;
+ }
 
 @media only screen and (max-width: 660px){
   .digitable tr{
