@@ -1,109 +1,102 @@
-/* Box Css*/
-
-#digit-container{
-margin:1px 1px 30px 1px;
-border-style:solid;
-border-width:2px;
-border-color:#e8e8e8;
-padding:30px 1px 30px 1px
-}
-.digit-css{
-display:flex;
-flex-wrap:wrap;
-align-items:stretch;
-width:auto;
-height:auto;
-color:#263745;
-background-color:#fff;
-border:0 solid transparent;
-transition:box-shadow .2s ease-out;
-position:relative;z-index:999;
-box-shadow:0 0 17px 0 rgba(0,0,0,0.3);
-text-decoration:none;
-}
-.digit-block{
- margin: 1px;
- vertical-align: text-top;
- text-align:center;
- margin-left: auto;
- margin-right: auto;
- display: block;
- padding:15px 1px 0px 1px;
-}
-.digit-img{
-  margin:3% 0px 25% 0px;
-}
-.digit-css i{
-  margin-right: 12px;
-}
-.digit-b{
-  display:inline-block;
-  line-height:2.1;
-  text-align:left;
-  vertical-align:text-center; 
-}
-  .digit-b b{
-    font-size: 16px;
+  .hosting-offer-container {
+    display: flex;
+    color: #263745;
+    background-color: #fff;
+    border: 0 solid transparent;
+    transition: box-shadow .2s ease-out;
+    position: relative;
+    z-index: 999;
+    box-shadow: 0 0 17px 0 rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e8e8e8;
+    padding: 15px 2px 15px 2px;
   }
-.i{
-  font-size: 18px;
-}
 
-@media only screen and (max-width: 660px){
-  .digit-img{
-  margin:3% 0px 18% 0px;
+  .hosting-section {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
   }
-  .digit-b b{
-    font-size: 14px;
+
+  .hosting-info {
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 0;
+    list-style-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 19' width='12px' height='12px'%3E%3Cpath d='M5.268,10.732c-0.976-0.976-2.559-0.976-3.536,0s-0.976,2.559,0,3.536l4.645,4.645	c1.449,1.449,3.797,1.449,5.246,0L12.536,18L5.268,10.732z' opacity='.35'/%3E%3Cpath d='M22.268,4.732c-0.976-0.976-2.559-0.976-3.536,0L9,14.464L12.536,18l9.732-9.732C23.244,7.291,23.244,5.708,22.268,4.732z'/%3E%3C/svg%3E");
   }
-  .i{
-  font-size: 16px;
-}
-}
 
+  .grab-deal a {
+    font-size: 18px;
+  }
 
-/* Button Css*/
+ @media (max-width: 550px) {
+    .hosting-offer-container {
+      flex-direction: column;
+      align-items: center;
+    }
 
-.digit-button {
-color:#6D2B7C!important;
-background-color:#F5A93C;
-border:2px solid #F5A93C;
-border-radius:25px;
-text-decoration:none!important;
--webkit-transition:all 0.3s ease 0s;
-transition:all 0.3s ease 0s;padding:13px 28px;
--webkit-box-shadow:0 1px 6px #0003;
-box-shadow:0 1px 6px #0003;
-display:inline-block;
-font-weight:600;
-font-size:13px;
-cursor:pointer;
--webkit-box-shadow:1px 2px 15px #0003;
-box-shadow:1px 2px 15px #0003;
-text-align:center;
-}
-.digit-button span {
- cursor: pointer;
- display: inline-block;
- position: relative;
- transition: 0.4s;
-}
-.digit-button span:after {
- content: '\00bb';
- position: absolute;
- opacity: 0;
- top: 0;
- right: -20px;
- transition: 0.5s;
-}
-.digit-button:hover span {
- padding-right: 25px;
-}
-.digit-button:hover span:after {
- opacity: 1;
- right: 0;
-}
+    .hosting-btn {
+      padding: 30px 0px 0px 0px;
+      margin: 25px 0px 20px 0px;
+    }
 
+  }
+
+  /* Button Css */
+
+  .hosting-btn {
+    color: #6D2B7C !important;
+    background-color: #F5A93C;
+    border: 2px solid #F5A93C;
+    border-radius: 25px;
+    text-decoration: none !important;
+    transition: all 0.3s ease 0s;
+    padding: 13px 28px;
+    box-shadow: 0 1px 6px #0003;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    box-shadow: 1px 2px 15px #0003;
+    text-align: center;
+  }
+
+  .hosting-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+
+  .hosting-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .hosting-btn:hover span {
+    padding-right: 25px;
+  }
+
+  .hosting-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
 
 
 @media only screen and (max-width: 660px){
