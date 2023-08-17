@@ -44,7 +44,6 @@
 .hosting-offer-container {
   margin-bottom:28px;
 }
-
 .hosting-section{
    margin-top: 15px;
    margin-bottom: 15px;
@@ -68,8 +67,9 @@
     }
 
    .hs-ml-block2{
-     margin-left: 0px;
-     margin-right: 0px;
+/*      margin-left: 0px;
+     margin-right: 0px; */
+     padding-left: 19px;
    }
 
   }
