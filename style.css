@@ -53,11 +53,6 @@
    margin-bottom: 0px;
    padding-left: 0px;
  }
-.hs-ml-block2{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
 
 /* End */
 
@@ -71,6 +66,11 @@
       padding: 30px 0px 0px 0px;
       margin: 25px 0px 20px 0px;
     }
+
+   .hs-ml-block2{
+     margin-left: 0px;
+     margin-right: 0px;
+   }
 
   }
 
