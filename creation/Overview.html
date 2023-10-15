@@ -1,4 +1,4 @@
-<table class="digit-brio">
+<table id="hosting-table">
   <tbody>
     <tr>
       <th><strong>SPEED:</strong></th>
@@ -31,14 +31,14 @@
 
 
 <style>
-  .digit-brio {
-    width: auto;
+  #hosting-table {
+    width: clamp(322px, 100%, 950px);
     border-collapse: collapse;
     color: #211c18;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
   }
 
-  .digit-brio th {
+  #hosting-table th {
     color: #FFFFFF;
     width: 16.666667%;
     word-break: normal;
@@ -49,21 +49,21 @@
     vertical-align: middle;
   }
 
-  .digit-brio tr:nth-child(odd) th {
+  #hosting-table tr:nth-child(odd) th {
     background: #103e69;
   }
 
-  .digit-brio td {
+  #hosting-table td {
     word-break: normal;
     padding: 18px 16px;
   }
 
-  .digit-brio tr:nth-child(odd) td {
+  #hosting-table tr:nth-child(odd) td {
     background: #EBEBEB;
   }
 
   @media screen and (max-width: 600px) {
-    .digit-brio th {
+    #hosting-table th {
       color: #FFFFFF;
       word-break: normal;
       text-align: left;
@@ -72,7 +72,7 @@
       font-size: 14px;
     }
 
-    .digit-brio td {
+    #hosting-table td {
       word-break: normal;
       padding: 18px 16px;
       font-size: 15px;
